@@ -54,7 +54,7 @@ def classifier_evaluation(y_pred, y_test):
 
     
     
-df = pd.read_csv('data\labeled_data.csv')
+df = pd.read_csv('labeled_data.csv')
 
 # Data Cleaning
 del df['Unnamed: 0']
