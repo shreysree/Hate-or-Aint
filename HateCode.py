@@ -19,6 +19,7 @@ import nltk
 from sklearn import metrics
 from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 import re
 from sklearn.metrics import confusion_matrix
 
